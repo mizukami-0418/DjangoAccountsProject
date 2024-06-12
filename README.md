@@ -1,0 +1,2 @@
+# DjangoAccountsProject
+Djangoを使用してユーザー認証機能を作成
