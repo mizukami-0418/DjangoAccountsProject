@@ -1,0 +1,14 @@
+<!-- templates/register.html -->
+{% extends "base.html" %}
+
+{% block title %}ユーザー登録{% endblock %}
+
+{% block content %}
+    <h1>新規登録</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">登録</button>
+    </form>
+{% endblock %}
+
